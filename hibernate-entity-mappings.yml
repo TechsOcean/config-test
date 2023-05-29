@@ -33,7 +33,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: '*','refresh'
 
   config:
     import: classpath:rabbitmq-config.yml
