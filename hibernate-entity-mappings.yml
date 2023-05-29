@@ -46,8 +46,8 @@ app:
     port: '3306'
   rabbitmq:
     - url: 'http://localhost:15672'
-    - username: guest
-    - password: guest
+    - username: sm
+    - password: sm
 other:
   value: ${app.app-name}
 
