@@ -28,6 +28,12 @@ spring:
 server:
   error:
     inlcude-message: always
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
 
 
 
