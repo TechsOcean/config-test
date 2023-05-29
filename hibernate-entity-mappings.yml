@@ -39,7 +39,7 @@ management:
     import: classpath:rabbitmq-config.yml
     
 app:   
-  app-name: DEV Config
+  app-name: DEV Config-DEV Config-DEV Config
   list: Dev,Config
   dbValues:
     connectionString: ${app.url}
