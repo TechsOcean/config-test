@@ -7,6 +7,9 @@ spring:
     url: 'jdbc:postgresql://localhost:5432/student'
     username: postgres
     password: password
+    
+server:
+  port: 9292
 
 
   # For script based initialization, this should be set to true
