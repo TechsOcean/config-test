@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/student'
+    username: postgres
+    password: password
+
+
+  # For script based initialization, this should be set to true
+  sql:
+    init:
+      mode: always
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    showSql: true
+
+    #    Scripts get executed before Hibernate is initialized
+    defer-datasource-initialization: true
+  hibernate:
+    ddl-auto: create
+
+server:
+  error:
+    inlcude-message: always
+
+
+
