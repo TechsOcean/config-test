@@ -36,4 +36,18 @@ management:
         include: '*'
 
 
+app:   
+  app-name: DEV Config
+  list: Dev,Config
+  dbValues:
+    connectionString: ${app.url}
+    port: '3306'
+  rabbitmq:
+    - url: 'http://localhost:15672'
+    - username: guest
+    - password: guest
+other:
+  value: ${app.app-name}
+
+
 
