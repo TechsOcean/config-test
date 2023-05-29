@@ -35,7 +35,9 @@ management:
       exposure:
         include: '*'
 
-
+  config:
+    import: classpath:rabbitmq-config.yml
+    
 app:   
   app-name: DEV Config
   list: Dev,Config
