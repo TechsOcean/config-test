@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    username: sm
+    password: sm
+
+mom:
+  queues:
+    orderPush:
