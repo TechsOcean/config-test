@@ -1,1 +1,8 @@
-Default Repo
+spring:
+  cloud:
+    config:
+      server:
+        git:
+#          uri: 'file:/F:\code\config_repos'
+          uri: https://github.com/TechsOcean/config-test.git
+          defaultLabel: main
