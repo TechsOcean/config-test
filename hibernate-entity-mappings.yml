@@ -40,7 +40,7 @@ management:
     
 app:   
   app-name: DEV Config-DEV Config-DEV Config
-  list: Dev,Config,Dev,Config,Dev,Config
+  list: Dev,Config
   dbValues:
     connectionString: ${app.url}
     port: '3306'
