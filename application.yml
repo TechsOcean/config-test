@@ -6,3 +6,7 @@ spring:
 #          uri: 'file:/F:\code\config_repos'
           uri: https://github.com/TechsOcean/config-test.git
           defaultLabel: main
+          
+  rabbitmq:
+    username: sm
+    password: sm
