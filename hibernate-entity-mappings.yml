@@ -44,7 +44,12 @@ app:
     list:
       values: One, Two, Three, Four, Five
   message: 'HELLO CLIENT'
-  db:
+  rabbitmq:
+    - host: localhost
+    - port: 5672
+    - username: sm
+    - password: sm
+  dbValues:
     connection: connection-string-here
     host: 127.0.0.1
     port: 1200
