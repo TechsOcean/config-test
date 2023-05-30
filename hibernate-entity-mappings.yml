@@ -1,4 +1,7 @@
 spring:
+  rabbitmq:
+    username: sm
+    password: sm
   cloud:
     config:
       import-check:
