@@ -38,6 +38,17 @@ management:
       exposure:
         include: health,refresh,beans,info
 
+app:        
+  my:
+    greeting: CONFIG SERVER APP
+    list:
+      values: One, Two, Three, Four, Five
+  message: 'HELLO CLIENT'
+  db:
+    connection: connection-string-here
+    host: 127.0.0.1
+    port: 1200
+
 
 
 
