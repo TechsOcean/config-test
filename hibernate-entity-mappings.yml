@@ -40,19 +40,7 @@ management:
 
   config:
     import: classpath:rabbitmq-config.yml
-    
-app:
-  app-name: DEV Config-DEV Config-DEV Config
-  list: Dev,Config
-  dbValues:
-    connectionString: ${app.url}
-    port: '3306'
-  rabbitmq:
-    - url: 'http://localhost:15672'
-    - username: sm
-    - password: sm
-other:
-  value: ${app.app-name}
+
 
 
 
