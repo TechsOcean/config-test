@@ -46,7 +46,7 @@ app:
   message: 'HELLO CLIENT'
   rabbitmq:
     - host: localhost
-    - port: 5672
+    - port: 5673
     - username: sm
     - password: sm
   dbValues:
