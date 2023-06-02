@@ -2,6 +2,8 @@ spring:
   autoconfigure:
 #     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
   profiles:
+#   Using command line arugument, profiles can be overridn and activated any profiles
+#   --spring.profiles.active=development,production
     active: production
     default: development
   main:
