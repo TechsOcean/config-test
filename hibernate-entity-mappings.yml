@@ -13,10 +13,16 @@ spring:
     config:
       import-check:
         enabled: false
-  datasource:
-    url: 'jdbc:postgresql://localhost:5432/student'
-    username: postgres
-    password: password
+  mysql:
+    datasource:
+      url: 'jdbc:mysql://localhost:3306/student'
+      username: root
+      password: password
+  postgres:
+    datasource:
+      url: 'jdbc:postgresql://localhost:5432/student'
+      username: postgres
+      password: password
     
   # For script based initialization, this should be set to true
   sql:
